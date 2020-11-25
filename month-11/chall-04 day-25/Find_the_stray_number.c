@@ -38,3 +38,28 @@ int stray(size_t n, int arr[n]) {
     }
   }
 }
+
+/* 
+Sample Test:
+
+#include <criterion/criterion.h>
+#include <stddef.h>
+
+int stray(size_t n, int arr[n]);
+
+Test(Sample_Cases, should_pass_all_the_tests_provided) {
+  {
+    int example[3] = {1, 0, 0};
+    cr_assert_eq(stray(3, example), 1, "expected 1");
+  }
+  {
+    int example[5] = {1, 1, 2, 1, 1};
+    cr_assert_eq(stray(5, example), 2, "expected 2");
+  }
+  {
+    int example[7] = {2, 2, 2, 2, 2, 2, 3};
+    cr_assert_eq(stray(7, example), 3, "expected 3");
+  }
+}
+
+*/
