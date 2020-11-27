@@ -13,6 +13,8 @@ Explanation:
 The first element 62 is the total weight of team 1, and the second element 27 is the total weight of team 2.
 
 rowWeights([50, 60, 70, 80])  ==>  return (120, 140)
+
+https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/train/c
 */
 
 
