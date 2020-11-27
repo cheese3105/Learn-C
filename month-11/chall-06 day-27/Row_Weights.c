@@ -20,10 +20,7 @@ https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/train/c
 
 void rowWeights(const int weights[], int count, int teams[])
 {
-  //cho giá trị thứ 1 của mảng teams bằng giá trị thứ 1 của mảng weight
-  teams[0] = weights[0];
-  teams[1] = 0;
-  //các phần tử tiếp theo sẽ được phân ra dựa trên vị trí của phần tử là chẵn hay lẻ
+  //phân chia các phần tử dựa trên vị trí của phần tử là chẵn hay lẻ
   for (int i = 1; i < count; i++){
     //nếu vị trí của phẩn tử là số lẻ thì cộng giá trị của phần tử vào teams[1]
     if (i % 2 == 1){
